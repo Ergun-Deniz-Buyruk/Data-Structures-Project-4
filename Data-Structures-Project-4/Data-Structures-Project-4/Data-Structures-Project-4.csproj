@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AVLTree.cs" />
+    <Compile Include="DFT.cs" />
+    <Compile Include="Dijkstra.cs" />
+    <Compile Include="MST.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data_Structures_Project_4
 {
+    /*
+     * Bu AVL Tree Classı https://simpledevcode.wordpress.com/2014/09/16/avl-tree-in-c/ sitesinden alınmıştır.
+     */
     internal class AVLTree
     {
 
@@ -82,7 +85,7 @@ namespace Data_Structures_Project_4
             return current;
         }
         public void Delete(int target)
-        {//and here
+        {
             root = Delete(root, target);
         }
         private Node Delete(Node current, int target)
@@ -96,7 +99,7 @@ namespace Data_Structures_Project_4
                 if (target < current.data)
                 {
                     current.left = Delete(current.left, target);
-                    if (balance_factor(current) == -2)//here
+                    if (balance_factor(current) == -2)
                     {
                         if (balance_factor(current.right) <= 0)
                         {
@@ -256,8 +259,5 @@ namespace Data_Structures_Project_4
             parent.right = RotateLL(pivot);
             return RotateRR(parent);
         }
-
-
-
     }
 }
