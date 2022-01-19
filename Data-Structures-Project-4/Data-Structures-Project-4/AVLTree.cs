@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace Data_Structures_Project_4
 {
     /*
-     * Bu AVL Tree Classı https://simpledevcode.wordpress.com/2014/09/16/avl-tree-in-c/ sitesinden alınmıştır.
+     * Bu AVL Tree Classı 
+     * https://simpledevcode.wordpress.com/2014/09/16/avl-tree-in-c/ 
+     * sitesinden alınmıştır.
      */
     internal class AVLTree
     {
